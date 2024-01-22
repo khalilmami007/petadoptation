@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+}
+
+.card {
+    width: 300px;
+    margin: 20px;
+}
+
+.mission-section {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.lead {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
+.btn-primary{
+   background-color:#434982
+}
+.btn-primary:hover{
+   background-color:#01D28E
+}
