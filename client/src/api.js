@@ -4,7 +4,7 @@ import axios from "axios"
 
 //All the requests happen at /api
 
-axios.defaults.baseURL = "http://localhost:4000/api";
+axios.defaults.baseURL = "http://localhost:5000/api";
 
 
 //Users 

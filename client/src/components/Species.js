@@ -17,7 +17,7 @@ const Species = () => {
     
     fetchAllPets();
     fetchPets();
-  }, [species]);
+  }, );
 
 const fetchAllPets = async () => {
     try {
